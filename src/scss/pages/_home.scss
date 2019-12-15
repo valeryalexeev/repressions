@@ -287,6 +287,8 @@
             width: 100%;
         }
         @include xs {
+            white-space: normal;
+            overflow: visible;
             padding: 0px 0px 14px 20px;
         }
         &:before {
@@ -312,6 +314,60 @@
             }
             &:hover {
                 color: $primary;
+            }
+        }
+    }
+}
+
+.pr-numbers {
+    background-color: #FAFAFA;
+    margin: 50px 0px;
+    padding: 10px 60px 50px;
+    @include sm {
+        padding: 10px 40px 40px;
+        margin: 30px 0px;
+    }
+    @include xs {
+        width: 100vw;
+        margin: 30px -5vw;
+        padding: 20px 5vw 40px;
+    }
+    &__item {
+        @extend .col-lg-3, .col-sm-6;
+        margin-top: 30px;
+        @include xs {
+            margin-top: 20px;
+        }
+        &__n {
+            font-family: $zona;
+            font-weight: 900;
+            font-size: 64px;
+            line-height: 1;
+            left: -0.01em;
+            @include rfonts(64, 64, 50, 40);
+        }
+        &__t {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 10px;
+            @include rfonts(16, 16, 14, 14);
+        }
+    }
+
+    &__disclaimer {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
+        margin-top: 36px;
+        color: #696969;
+        @include sm {
+            font-size: 12px;
+        }
+        a {
+            color: $primary;
+            border-bottom: 1px solid rgba($primary, .6);
+            &:hover {
+                opacity: .8;
             }
         }
     }

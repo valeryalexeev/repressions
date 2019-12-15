@@ -4,7 +4,19 @@
         "url": "https://memohrc.org/ru/pzk-list"
     },
     {
+        "title": "Мониторинг политических репрессий в современной России",
+        "url": "https://politpressing.org"
+    },
+    {
+        "title": "Союз солидарности с политзаключенными",
+        "url": "https://www.politzeky.ru"
+    },
+    {
         "title": "Открытое письмо IT-сообщества России",
         "url": "https://github.com/developers-against-repressions/case-212"
+    },
+    {
+        "title": "Медиазона: интернет-СМИ о политических преследованиях в России",
+        "url": "https://zona.media"
     }
 ]
