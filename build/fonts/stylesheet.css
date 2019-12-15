@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Zona Pro ExtraBold Demo';
+    src: url('ZonaPro-ExtraBoldDemo.eot');
+    src: url('ZonaPro-ExtraBoldDemo.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-ExtraBoldDemo.woff2') format('woff2'),
+        url('ZonaPro-ExtraBoldDemo.woff') format('woff'),
+        url('ZonaPro-ExtraBoldDemo.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+

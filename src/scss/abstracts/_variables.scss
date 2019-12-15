@@ -1,0 +1,23 @@
+$sans: 'Open Sans', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$zona: "Zona Pro ExtraBold Demo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$primary: #DD3939;
+$black: #292929;
+$primary_hover: lighten($primary, 5%);
+$primary_hover_a: lighten($primary, 10%);
+
+// Bootstrap Overrides
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1240px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1200px
+);

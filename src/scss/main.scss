@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+@import "./abstracts/variables",
+        "./abstracts/mixins",
+        'bootstrap/scss/bootstrap-grid.scss',
+        "./base/typography",
+        "./pages/home";
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.container {
+    @include xs {
+        width: 90%;
+        padding: 0px;
+    }
+}
