@@ -31,5 +31,8 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.2",
     "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "pages": "git subtree push --prefix build origin gh-pages"
   }
 }
