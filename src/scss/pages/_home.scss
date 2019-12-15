@@ -80,27 +80,38 @@
         margin-top: 30px;
         @include sm {
             margin-top: 15px;
+            &:first-child {
+                .pr-episodes__item {
+                    border-top: 0px;
+                    padding-top: 0;
+                    margin-top: 10px;
+                }
+            }
+            &:last-child {
+                .pr-episodes__item {
+                    border-bottom: 0px;
+                    padding-bottom: 30px;
+                    &__link {
+                        bottom: 0;
+                    }
+                }
+            }
         }
         @include xs {
             margin-top: -1px;
             padding: 0;
         }
-        &:last-child {
-            .pr-episodes__item {
-                border-bottom: 0px;
-                padding-bottom: 0px;
-            }
-        }
+        
     }
     &__item {
         background: #fff;
         border: 1px solid #e5e5e5;
-        padding: 36px;
+        padding: 36px 36px 72px;
         height: 100%;
         @include xs {
             border-left: 0px;
             border-right: 0px;
-            padding: 25px 5vw;
+            padding: 25px 5vw 64px;
         }
         &__title {
             font-family: $zona;
@@ -135,6 +146,8 @@
             background-repeat: no-repeat;
             background-position: 100% 70%;
             color: $black;
+            position: absolute;
+            bottom: 36px;
             @include xs {
                 margin-top: 15px;
             }
