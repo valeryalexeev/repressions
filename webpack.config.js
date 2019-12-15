@@ -3,8 +3,8 @@ import path from "path";
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
-    mode: 'development',
-    // mode: 'production',
+    // mode: 'development',
+    mode: 'production',
     output: {
         filename: 'main.js',
     },
