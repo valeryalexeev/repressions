@@ -26,7 +26,7 @@
     "gulp-watch": "^5.0.1",
     "lodash": "^4.17.15",
     "node-sass": "^4.9.0",
-    "npm": "^6.0.0",
+    "npm": "^6.14.6",
     "vue": "^2.6.11",
     "vue-loader": "^15.7.2",
     "vue-template-compiler": "^2.6.11",
